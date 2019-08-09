@@ -1,8 +1,5 @@
 [![CircleCI](https://circleci.com/gh/BriiSkii/udmlproject/tree/master.svg?style=svg)](https://circleci.com/gh/BriiSkii/udmlproject/tree/master)
-<<<<<<< HEAD
 
-=======
->>>>>>> 44b195aec87355e5ebee8241bcc0477d72633889
 
 ## Project Overview
 
