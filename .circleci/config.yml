@@ -38,4 +38,3 @@ jobs:
           command: |
             . venv/bin/activate
             make lint
-view rawconfig.yml hosted with ❤ by GitHub
