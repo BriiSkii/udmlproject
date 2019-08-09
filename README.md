@@ -19,7 +19,7 @@ a train, machine learning model and returning a predicted value for a house pric
 
 * Create a virtualenv and activate it
 * python3 -m venv ~/folder-name
-* source ~/folder-name
+* source ~/folder-name/bin/activate
 * Run `make install` to install the necessary dependencies
 
 ### Running `app.py`
