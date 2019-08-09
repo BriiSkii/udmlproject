@@ -1,5 +1,8 @@
 [![CircleCI](https://circleci.com/gh/BriiSkii/udmlproject/tree/master.svg?style=svg)](https://circleci.com/gh/BriiSkii/udmlproject/tree/master)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 44b195aec87355e5ebee8241bcc0477d72633889
 
 ## Project Overview
 
@@ -24,8 +27,8 @@ a train, machine learning model and returning a predicted value for a house pric
 
 * Have a system with python3 installed
 * Create a virtualenv and activate it
-* python3 -m venv ~/<folder-name>
-* source ~/<folder-name>
+* python3 -m venv ~/folder-name
+* source ~/folder-name/bin/activate
 * Run `make install` to install the necessary dependencies
 
 ### Running `app.py`
