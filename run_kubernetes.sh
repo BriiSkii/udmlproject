@@ -14,6 +14,13 @@ kubectl create deployment predict --image=docker.io/bswhite/udmlproject
 # List kubernetes pods
 kubectl get pods
 
+# Save pod name and view logs 
+output="$(kubectl get pods -o=name)"
+kubectl logs $output
+
+
+echo "==========================="
+
 # Step 4:
 # Forward the container port to a host
 kubectl port-forward deployment/predict 8000:80
