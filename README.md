@@ -1,9 +1,14 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/BriiSkii/udmlproject/tree/master.svg?style=svg)](https://circleci.com/gh/BriiSkii/udmlproject/tree/master)
+
 
 ## Project Overview
 
-In this project, we were tasked with operationalizing a Machine Learning Microservice API.
-Tools used: Docker, Kubernetes, CircleCI
+In this project, we were tasked with operationalizing a Machine Learning Microservice API using
+docker and kubernetes.
+Using a Dockerfile an image is built that includes the application and will start the application
+upon deployment of the container. Using the supplied shell scripts, the application will be
+deployed. Steps included below.
+
 ---
 
 ## Scripts included
@@ -17,6 +22,7 @@ a train, machine learning model and returning a predicted value for a house pric
 
 ## Setup the Environment
 
+* Have a system with python3 installed
 * Create a virtualenv and activate it
 * python3 -m venv ~/<folder-name>
 * source ~/<folder-name>
@@ -28,9 +34,14 @@ a train, machine learning model and returning a predicted value for a house pric
 2. Run in Docker:  `./run_docker.sh`
 3. Run in Kubernetes:  `./run_kubernetes.sh`
 
+### Docker Steps
+* Setup and Configure Docker locally
+* Run `./run_docker.sh`
+* Run `./make_prediction.sh` to get a price prediction
+
 ### Kubernetes Steps
 
 * Setup and Configure Docker locally
 * Setup and Configure Kubernetes locally
-* Create Flask app in Container
-* Run via kubectl
+* Create the deployment by running `./run_kubernetes.sh`
+* Run `./make_prediction.sh` to get a price prediction
